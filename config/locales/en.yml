@@ -30,4 +30,23 @@
 # available at https://guides.rubyonrails.org/i18n.html.
 
 en:
-  hello: "Hello world"
+  period:
+    errors:
+      end_date: "must be after start_date"
+  season:
+    errors:
+      number_of_period: "%{value} must be at least equal to 1."
+      period_duration: "%{value} must be at least equal to 1."
+  run:
+    errors:
+      number_death: "%{value} must be higher than 0."
+      video_link: "Only link from youtube.com or speedrun.com are allowed."
+  run_result:
+    errors:
+      accumulated_point: "%{value} must be at least equal to 0."
+      bonus_less_death: "%{value} must be at least equal to 0."
+      bonus_time_split: "%{value} must be between 0 and %{maximum}."
+      rank: "%{value} must be at least equal to 1."
+  run_time:
+    errors:
+      time_lenght: "%{value} is not between 0 and 59."
