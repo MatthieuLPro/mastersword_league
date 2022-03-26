@@ -1,0 +1,9 @@
+development:
+  run_result_maximum_bonus: 1
+  video_link_regex: /http(?:s?):\/\/(?:www\.)?youtu(?:be\.com\/watch\?v=|\.be\/)([\w\-\_]*)|http(?:s?):\/\/(?:www\.)?speedrun.com\/alttp\/run\/([\w\-\_]*)/
+production:
+  run_result_maximum_bonus: 1
+  video_link_regex: /http(?:s?):\/\/(?:www\.)?youtu(?:be\.com\/watch\?v=|\.be\/)([\w\-\_]*)|http(?:s?):\/\/(?:www\.)?speedrun.com\/alttp\/run\/([\w\-\_]*)/
+test:
+  run_result_maximum_bonus: 1
+  video_link_regex: /http(?:s?):\/\/(?:www\.)?youtu(?:be\.com\/watch\?v=|\.be\/)([\w\-\_]*)|http(?:s?):\/\/(?:www\.)?speedrun.com\/alttp\/run\/([\w\-\_]*)/
